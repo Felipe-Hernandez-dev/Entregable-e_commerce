@@ -1,0 +1,20 @@
+{
+  "name": "entregable-e-commerce",
+  "version": "1.0.0",
+  "description": "Primera_pre_entrega",
+  "type": "module",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon ."
+  },
+  "author": "Felipe Hernandez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.0",
+    "uuid": "^9.0.1"
+  }
+}
